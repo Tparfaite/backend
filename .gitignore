@@ -1,0 +1,28 @@
+# Node
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Editor
+.vscode/
+.DS_Store
+
+# Env files (don’t commit secrets)
+*.env
+.env.local
+
+# SQLite databases
+*.sqlite
+
+# Protobuf exports saved locally
+*.bin
+
+# Backend secrets/keys
+backend/src/keys/keys.json
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
